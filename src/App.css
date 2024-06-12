@@ -5,6 +5,7 @@
 body {
   overflow-x: hidden;
   background-color: transparent;
+  background-color: #110A0C;
 }
 @media screen and (max-width: 768px) {
   .cl-title{
