@@ -1,14 +1,18 @@
 import React from 'react'
 import { NavbarComponent } from '../components/Navbar'
-// import { Carousel } from '../components/LandingCarousel'
+import { LandingCarousel } from '../components/LandingCarousel'
+import { CarouselBrands } from '../components/CarouselBrands'
 import  Footer  from '../components/Footer'
 
 export const Landing = () => {
   return (
       <div>
         <NavbarComponent />
-        {/* <Carousel /> */}
-        <Footer /> 
+        <LandingCarousel />
+        <div className="mt-10">
+        <CarouselBrands />
+        </div>
+        <Footer />
       </div>
     )
 }

@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Landing } from './pages/Landing';
+import { CarouselBrands } from './components/CarouselBrands'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Landing />} />
+        <Route path="/services" element={<CarouselBrands />} />
       </Routes>
     </Router>
   )

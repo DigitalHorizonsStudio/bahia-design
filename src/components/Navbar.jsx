@@ -34,13 +34,13 @@ export const NavbarComponent = () => {
           <Nav className="flex flex-row items-center gap-3 lg:justify-end">
             {/* Iconos de redes sociales */}
             <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-3">
-              <ul className="flex flex-row justify-center text-xs">                 
+              <ul className="flex flex-col justify-center text-xs">                 
                   <a href="https://www.instagram.com/paradisomusicpro">
-                    <img src={Instagram} alt="Instagram" className="w-5 h-5 mx-2" />
+                    <img src={Instagram} alt="Instagram" className="w-4 h-4 mx-2" />
                   </a>                
                 
-                <a href="">
-                    <img src={Whatsapp} alt="WhatsApp" className="w-3 h-3 mx-2" />
+                <a href="" className="mt-1">
+                    <img src={Whatsapp} alt="WhatsApp" className="w-4 h-4 mx-2" />
                 </a>             
               </ul>
             </div>
