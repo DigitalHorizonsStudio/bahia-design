@@ -35,7 +35,7 @@ export const NavbarComponent = () => {
             {/* Iconos de redes sociales */}
             <div className="hidden lg:flex lg:flex-row lg:items-center lg:gap-3">
               <ul className="flex flex-col justify-center text-xs">                 
-                  <a href="https://www.instagram.com/paradisomusicpro">
+                  <a href="">
                     <img src={Instagram} alt="Instagram" className="w-4 h-4 mx-2" />
                   </a>                
                 

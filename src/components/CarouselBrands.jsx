@@ -4,6 +4,16 @@ import Csl from '../assets/brands/csl-whatsapp.jpg';
 import Embramaco from '../assets/brands/embramaco.jpg';
 import Ferrum from '../assets/brands/ferrum.png';
 import Johnson from '../assets/brands/johnson-acero.jpg';
+import Novum from '../assets/brands/logo_novum_blanco.png';
+import Agualaf from '../assets/brands/logo-agualaf-pagina-web.png';
+import Piu from '../assets/brands/logo-ceramicapiu.png';
+import Roca from '../assets/brands/logo-roca-cabecera.png';
+import Lume from '../assets/brands/Lume-logo.png';
+import Pileta from '../assets/brands/mi-pileta.png';
+import Shawer from '../assets/brands/shawer.jpg';
+import Tendenza from '../assets/brands/tendenza.png';
+import Vite from '../assets/brands/vite.jpg';
+
 
 const images = [
     Alberdi,
@@ -11,6 +21,15 @@ const images = [
     Embramaco,
     Ferrum,
     Johnson,
+    Novum,
+    Agualaf,
+    Piu,
+    Roca,
+    Lume,
+    Pileta,
+    Shawer,
+    Tendenza,
+    Vite,
 ];
 
 export const CarouselBrands = () => {
