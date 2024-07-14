@@ -8,7 +8,7 @@ export const Partners = () => {
       <div>
         <NavbarComponent />
         <CarouselBrands />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
 }
