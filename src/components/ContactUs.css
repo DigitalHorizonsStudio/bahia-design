@@ -1,10 +1,11 @@
 /* ContactForm.css */
 
 .contact-form-container {
+    backdrop-filter: blur(80%);
     width: 50%;
     padding: 20px;
-    background-color: #f8f9fa; /* Light background color */
-    border: 1px solid #dee2e6; /* Gray border */
+    background-color: linear-gradient(to left, #000000, #606060); /* Light background color */
+    border: 1px solid #CCCECE; /* Gray border */
     border-radius: 8px;
     margin: 5% auto; /* Centering the form horizontally */
     margin-right: 20%;
@@ -15,13 +16,13 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-bottom: 15px;
-    color: #333; /* Dark text color */
+    color: #CCCECE; /* Dark text color */
   }
   
   .contact-form-container label {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: #333; /* Dark text color */
+    color: #CCCECE; /* Dark text color */
     margin-bottom: 8px;
   }
   
@@ -31,6 +32,7 @@
   .contact-form-container textarea {
     width: calc(100% - 20px);
     padding: 10px;
+    background-color: #CCCECE;
     margin-bottom: 15px;
     border: 1px solid #ced4da; /* Gray border */
     border-radius: 4px;
@@ -42,8 +44,8 @@
   }
   
   .contact-form-container button {
-    background-color: #007bff; /* Blue background */
-    color: #fff; /* White text color */
+    background-color: #606060; /* Blue background */
+    color: #CCCECE; /* White text color */
     border: none;
     padding: 10px 20px;
     font-size: 14px;
@@ -52,7 +54,8 @@
   }
   
   .contact-form-container button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    color: #606060;
+    background-color: #CCCECE; /* Darker blue on hover */
   }
   
   .contact-form-container .form-group {
