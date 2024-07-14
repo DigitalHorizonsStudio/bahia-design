@@ -1,4 +1,5 @@
 import React from 'react';
+import './CarouselBrands.css';
 import Alberdi from '../assets/brands/alberdi-ceramica.png';
 import Csl from '../assets/brands/csl-whatsapp.jpg';
 import Embramaco from '../assets/brands/embramaco.jpg';
@@ -13,7 +14,6 @@ import Pileta from '../assets/brands/mi-pileta.png';
 import Shawer from '../assets/brands/shawer.jpg';
 import Tendenza from '../assets/brands/tendenza.png';
 import Vite from '../assets/brands/vite.jpg';
-
 
 const images = [
     Alberdi,
@@ -34,9 +34,9 @@ const images = [
 
 export const CarouselBrands = () => {
     return (
-        <div className=" mx-auto px-10 bg-[#110A0C] flex flex-col justify-center items-center px-2 py-5">
-            <h1 className="text-3xl sm:text-5xl xl:text-6xl font-semibold text-white">Nuestros proveedores</h1>
-            <div className="container grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:mb-15 px-20">
+        <div className="carousel-brands-container bg-[linear-gradient(to left, #000000, #606060)] flex flex-col justify-center items-center px-2 py-5">
+            <h1 className="text-3xl sm:text-5xl xl:text-6xl font-semibold text-[#606060]">Nuestros proveedores</h1>
+            <div className="brands-grid container grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:mb-15">
                 {images.map((image, index) => (
                     <div key={index} className="relative flex justify-center">
                         <img
@@ -50,4 +50,4 @@ export const CarouselBrands = () => {
             </div>
         </div>
     );
-}
+};

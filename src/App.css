@@ -5,15 +5,15 @@
 body {
   overflow-x: hidden;
   background-color: transparent;
-  background-color: #110A0C;
+  background: linear-gradient(to left, #000000, #606060);
 }
 @media screen and (max-width: 768px) {
   .cl-title{
-      color: #ffffff;
+      color: #606060;
   }
   .bg-service {
-      background-color: #110A0C;
-      color: #ffffff
+      background-color: #CCCECE;
+      color: #606060
   }
   
 }

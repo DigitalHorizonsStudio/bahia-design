@@ -8,7 +8,7 @@ export const Contact = () => {
       <div>
         <NavbarComponent />
         <ContactUs />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
 }

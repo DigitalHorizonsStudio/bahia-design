@@ -8,7 +8,7 @@ export const Jobs = () => {
       <div>
         <NavbarComponent />
         <JobsCarousel />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
 }

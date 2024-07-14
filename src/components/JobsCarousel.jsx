@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Spinner from 'react-bootstrap/Spinner'; // Import Spinner component from react-bootstrap
 import './Carousel.css';
 
 import landing1 from '../assets/landing/bahiad1.jpg';
@@ -19,11 +18,9 @@ const slides = [
 
 export const JobsCarousel = () => {
 
-  const totalImages = slides.length;
-
   return (
-    <div>
-      <Carousel style={{backgroundColor: '#110A0C'}} data-bs-theme="dark" fade={true}>
+    <div className="carousel-container">
+      <Carousel style={{background: 'transparent'}} data-bs-theme="dark" fade={true}>
         {slides.map((slide, index) => (
           <Carousel.Item key={index}>
             <div className="evts-carousel py-10">

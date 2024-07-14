@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-// import Spinner from 'react-bootstrap/Spinner'; // Import Spinner component from react-bootstrap
 import './Carousel.css';
-
 
 import landing1 from '../assets/landing/bahiad1.jpg';
 import landing2 from '../assets/landing/bahiad2.jpg';
@@ -13,18 +11,15 @@ import landing5 from '../assets/landing/bahid5.jpg';
 const slides = [
   { src: landing5, title: "Logo" },
   { src: landing1, title: "Colocacion pisos" },
-  { src: landing2 , title: "Colocacion pisos" },
+  { src: landing2, title: "Colocacion pisos" },
   { src: landing3, title: "Colocacion pisos" },
   { src: landing4, title: "Colocacion pisos" },
 ];
 
 export const LandingCarousel = () => {
-
-  const totalImages = slides.length;
-
   return (
-    <div>
-      <Carousel style={{backgroundColor: '#110A0C'}} data-bs-theme="dark" fade={true}>
+    <div className="carousel-container">
+      <Carousel style={{background: 'transparent'}} data-bs-theme="dark" fade={true}>
         {slides.map((slide, index) => (
           <Carousel.Item key={index}>
             <div className="evts-carousel py-10">

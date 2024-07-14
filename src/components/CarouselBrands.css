@@ -1,0 +1,16 @@
+.carousel-brands-container {
+    margin-left: 250px; /* Adjust this value if the sidebar width changes */
+    padding: 20px; /* Optional: Add padding if needed */
+    box-sizing: border-box; /* Ensure padding and margin are calculated correctly */
+    width: calc(100% - 250px); /* Adjust the width to not overlap the sidebar */
+}
+
+.carousel-brands-container .container {
+    width: 100%;
+    padding: 0 20px; /* Adjust padding as needed */
+}
+
+.carousel-brands-container img {
+    width: 100%;
+    height: auto;
+}

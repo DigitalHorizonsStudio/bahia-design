@@ -12,7 +12,7 @@ export const Landing = () => {
         <div className="mt-10">
         <CarouselBrands />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
 }
