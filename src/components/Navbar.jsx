@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import { Nav, Navbar } from 'react-bootstrap';
-import logo from '../assets/logo/logo.jpg';
+import logo from '../assets/logo/logo22.png';
 import { Link } from 'react-router-dom'; 
 import Whatsapp from '../assets/logo/whatsapp.png';
 import Instagram from '../assets/logo/instagram.png';
@@ -19,7 +19,7 @@ export const NavbarComponent = () => {
     <div className="fixed top-0 left-0 h-full custom-sidebar" style={{ width: '160px', background: 'linear-gradient(to bottom, #000000, #606060)' }}>
       <Navbar variant="dark" expand="lg" className="flex-column h-100 p-3">
         <Navbar.Brand as={Link} to="/" className="mb-4 w-100 d-flex justify-content-center">
-          <img style={{ width: '100px', height: '80px' }} src={logo} alt="Bahia Design Logo" />
+          <img style={{ width: '130px', height: '105px' }} src={logo} alt="Bahia Design Logo" />
         </Navbar.Brand>
 
         <Navbar.Toggle onClick={handleToggle} aria-controls="basic-navbar-nav" />
