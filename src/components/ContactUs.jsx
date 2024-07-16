@@ -29,7 +29,7 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="contact-form-container">
+    <div className="contact-form-container " style={{ background: 'linear-gradient(to bottom, #000000, #606060)', marginLeft:'25%' }}>
       <h2>Contactanos</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

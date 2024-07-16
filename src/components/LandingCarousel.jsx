@@ -6,10 +6,10 @@ import landing1 from '../assets/landing/bahiad1.jpg';
 import landing2 from '../assets/landing/bahiad2.jpg';
 import landing3 from '../assets/landing/bahiad3.jpg';
 import landing4 from '../assets/landing/bahiad4.jpg';
-import landing5 from '../assets/landing/bahid5.jpg';
+// import landing5 from '../assets/landing/bahid5.jpg';
 
 const slides = [
-  { src: landing5, title: "Logo" },
+  // { src: landing5, title: "Logo" },
   { src: landing1, title: "Colocacion pisos" },
   { src: landing2, title: "Colocacion pisos" },
   { src: landing3, title: "Colocacion pisos" },

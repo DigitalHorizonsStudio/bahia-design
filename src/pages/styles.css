@@ -1,0 +1,28 @@
+.background-image {
+    background-image: url('../assets/landing/fondoSL.png');
+    background-size: auto;
+    background-position: right;
+    background-repeat: repeat;
+    /* background-attachment: local ; */
+    width: 110%;
+    height: 100vh; /* Ajusta según el tamaño que necesites */
+  }
+
+.landing-logo {
+    background-image: url('../assets/logo/logo22.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200%; 
+  height: 100vh;   
+    
+    /* background-blend-mode: overlay; */
+
+}
+
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

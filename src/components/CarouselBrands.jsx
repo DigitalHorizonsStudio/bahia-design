@@ -18,23 +18,23 @@ import Vite from '../assets/brands/vite.jpg';
 const images = [
     Alberdi,
     Csl,
-    Embramaco,
     Ferrum,
-    Johnson,
     Novum,
     Agualaf,
     Piu,
     Roca,
     Lume,
     Pileta,
-    Shawer,
     Tendenza,
+    Embramaco,
+    Johnson,
+    Shawer,
     Vite,
 ];
 
 export const CarouselBrands = () => {
     return (
-        <div className="carousel-brands-container bg-[linear-gradient(to left, #000000, #606060)] flex flex-col justify-center items-center px-2 py-5">
+        <div className="carousel-brands-container bg-[linear-gradient(to left, #000000, #606060)] flex flex-col justify-center items-center" style={{marginLeft:'8%'}}>
             <h1 className="text-3xl sm:text-5xl xl:text-6xl font-semibold text-[#606060]">Nuestros proveedores</h1>
             <div className="brands-grid container grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 xl:mb-15">
                 {images.map((image, index) => (
@@ -43,7 +43,7 @@ export const CarouselBrands = () => {
                             src={image}
                             alt={`Client ${index + 1}`}
                             loading='lazy'
-                            className="object-contain rounded-lg mb-2 hover:opacity-40 p-16 transition-opacity duration-300"
+                            className="object-contain rounded-lg mb-2 hover:opacity-40 p-12 transition-opacity duration-300"
                         />
                     </div>
                 ))}

@@ -16,7 +16,7 @@ export const NavbarComponent = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 h-full custom-sidebar" style={{ width: '160px', background: 'linear-gradient(to bottom, #000000, #606060)' }}>
+    <div className="fixed top-0 left-0 h-full custom-sidebar " style={{ width: '160px', background: 'linear-gradient(to bottom, #000000, #606060)' }}>
       <Navbar variant="dark" expand="lg" className="flex-column h-100 p-3">
         <Navbar.Brand as={Link} to="/" className="mb-4 w-100 d-flex justify-content-center">
           <img style={{ width: '130px', height: '105px' }} src={logo} alt="Bahia Design Logo" />
@@ -26,10 +26,10 @@ export const NavbarComponent = () => {
         
         <Navbar.Collapse id="basic-navbar-nav" className="flex-column w-100">
           <Nav className="flex-column w-100">
-            <Nav.Link as={Link} to="/works" className="text-left" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Trabajos</Nav.Link>
-            <Nav.Link as={Link} to="/services" className="text-left" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Proveedores</Nav.Link>
-            <Nav.Link as={Link} to="/contactus" className="text-left" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Contacto</Nav.Link>
-            <Nav.Link as={Link} to="/aboutus" className="text-left" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Sobre nosotros</Nav.Link>
+            <Nav.Link as={Link} to="/works" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Trabajos</Nav.Link>
+            <Nav.Link as={Link} to="/services" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Proveedores</Nav.Link>
+            <Nav.Link as={Link} to="/contactus" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Contacto</Nav.Link>
+            <Nav.Link as={Link} to="/aboutus" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Sobre nosotros</Nav.Link>
           </Nav>
           <Nav className="mt-auto mb-4 w-100">
             <div>

@@ -3,8 +3,9 @@
     
 }
 .carousel-container {
-  margin-left: 250px; /* Adjust this value if the sidebar width changes */
+  margin-left: 170px; /* Adjust this value if the sidebar width changes */
   padding: 20px; /* Optional: Add padding if needed */
+  margin-right: 10%;;
 }
   .img-carousel {
     width: 100%;

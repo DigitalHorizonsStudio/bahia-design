@@ -5,6 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      gris: '#606060'
+    },
     extend: {
       fontSize: {
         '7xl': '5rem', // Tamaño de texto 7xl

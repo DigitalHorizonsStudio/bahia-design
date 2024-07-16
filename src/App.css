@@ -2,11 +2,24 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-body {
+/* body {
   overflow-x: hidden;
   background-color: transparent;
   background: linear-gradient(to left, #000000, #606060);
+  background-image: url('../assets/landing/fondoSL.png');
+} */
+
+body {
+  overflow-x: hidden;
+  background-color: transparent;
+  background: url('./assets/landing/fondoSL.png');
+  background-size: auto; /* Asegura que la imagen cubra toda el área */
+  background-position: right; /* Centra la imagen en el área */
+  background-repeat: repeat; /* Evita que la imagen se repita */
+  width: 110%;
+  height: 100vh; 
 }
+
 @media screen and (max-width: 768px) {
   .cl-title{
       color: #606060;
