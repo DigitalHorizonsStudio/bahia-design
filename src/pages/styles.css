@@ -1,4 +1,5 @@
 .background-image {
+  /* background-image: url('../assets/landing/blanco.png'); */
     background-image: url('../assets/landing/fondoSL.png');
     background-size: auto;
     background-position: right;
@@ -9,7 +10,8 @@
   }
 
 .landing-logo {
-    background-image: url('../assets/logo/logo22.png');
+    /* background-image: url('../assets/logo/logo22.png'); */
+    background-image: url('../assets/landing/logoBlanco.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

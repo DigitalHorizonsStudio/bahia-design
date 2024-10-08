@@ -6,7 +6,8 @@ import { CarouselBrands } from '../components/CarouselBrands'
 import { ContactUs } from '../components/ContactUs'
 import './styles.css';
 import '../components/ContactUs.css';
-import logo from '../assets/logo/logo22.png'
+// import logo from '../assets/logo/logo22.png'
+import logo from '../assets/landing/logoBlanco.png'
 import FloatingButton from '../components/ButtonWsp'
 import { AboutUs } from '../components/AboutUs'
 
