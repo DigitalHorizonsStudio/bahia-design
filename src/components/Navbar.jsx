@@ -27,13 +27,13 @@ export const NavbarComponent = () => {
         <Navbar.Collapse id="basic-navbar-nav" className="flex-column w-100">
           <Nav className="flex-column w-100">
             {/* <Nav.Link as={Link} to="/works" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Trabajos</Nav.Link> */}
-            <Nav.Link as={Link} to="/services" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Proveedores</Nav.Link>
             <Nav.Link as={Link} to="/contactus" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Contacto</Nav.Link>
+            <Nav.Link as={Link} to="/services" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Productos</Nav.Link>
             <Nav.Link as={Link} to="/aboutus" className="text-left hover:opacity-40 transition-opacity duration-300" style={{ color: '#CCCECE', fontFamily: 'Montserrat', fontSize: '14px' }}>Sobre nosotros</Nav.Link>
           </Nav>
           <Nav className="mt-auto mb-4 w-100">
             <div>
-                <div className="text-white text-xs space-y-1 text-center mt-4 lg:mt-0">
+                <div className="text-black text-xs space-y-1 text-center mt-4 lg:mt-0">
                     <p>Bahia Design</p>
                     <p>Lunes - Viernes 10-16</p>
                     <p>Coordinar cita previa</p>
@@ -42,14 +42,14 @@ export const NavbarComponent = () => {
                   <ul className="flex flex-row justify-center text-xs pt-1">
                       <li>
                           <a href="">
-                              <img src={Whatsapp} alt="WhatsApp" className="w-4 h-4 mx-2" />
+                              <img src={Whatsapp} alt="WhatsApp" className="w-6 h-6 mx-2 filter invert hover:opacity-30 transition-opacity duration-300" />
                           </a>
                       </li>
 
-                      <li><a href=""><img src={Instagram} alt="Instagram" className="w-4 h-4 mx-2" /></a></li>
+                      <li><a href=""><img src={Instagram} alt="Instagram" className="w-6 h-6 mx-2 filter invert hover:opacity-30 transition-opacity duration-300" /></a></li>
                       <li>
                           <a href="">
-                              <img src={Correo} alt="Correo" className="w-4 h-4 mx-2" />
+                              <img src={Correo} alt="Correo" className="w-6 h-6 mx-2 filter invert hover:opacity-30 transition-opacity duration-300" />
                           </a>
                       </li>
                   </ul>

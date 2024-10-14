@@ -12,8 +12,9 @@
 body {
   overflow-x: hidden;
   background-color: transparent;
-  /* background: url('./assets/landing/fondoSL.png'); */
-  background: url('./assets/landing/blanco.png');
+  background: url('./assets/landing/fondoSL.png');
+  /*background: linear-gradient(180deg, #000000, #333333);*/
+  /* background: url('./assets/landing/blanco.png'); */
   background-size: auto; /* Asegura que la imagen cubra toda el área */
   background-position: right; /* Centra la imagen en el área */
   background-repeat: repeat; /* Evita que la imagen se repita */

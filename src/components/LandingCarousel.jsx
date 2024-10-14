@@ -2,10 +2,11 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css';
 
-import landing1 from '../assets/landing/bahiad1.jpg';
+import landing1 from '../assets/landing/logocar.png';
 import landing2 from '../assets/landing/bahiad2.jpg';
 import landing3 from '../assets/landing/bahiad3.jpg';
 import landing4 from '../assets/landing/bahiad4.jpg';
+import landing5 from '../assets/landing/bahiad1.jpg';
 // import landing5 from '../assets/landing/bahid5.jpg';
 
 const slides = [
@@ -14,6 +15,7 @@ const slides = [
   { src: landing2, title: "Colocacion pisos" },
   { src: landing3, title: "Colocacion pisos" },
   { src: landing4, title: "Colocacion pisos" },
+  { src: landing5, title: "Colocacion pisos" },
 ];
 
 export const LandingCarousel = () => {
