@@ -20,9 +20,9 @@ export const Landing = () => {
 
         <NavbarComponent />
 
-        <div className='flex-grow flex items-center justify-center py-14'>
+        {/* <div className='flex-grow flex items-center justify-center py-14'>
          <img src={logo} alt="" className="custom-container max-w-full h-auto hover:opacity-60 transition-opacity duration-300" /> 
-        </div>
+        </div> */}
         <Services />
         {/* <div className='border' style={{ width: '60%', display:'flex', marginLeft:'20%', marginTop: '3%',}}></div> */}
         {/* <LandingCarousel /> */}
