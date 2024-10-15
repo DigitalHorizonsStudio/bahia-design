@@ -36,7 +36,8 @@ export const NavbarComponent = () => {
             <div>
                 <div className="text-black text-xs space-y-1 text-center mt-4 lg:mt-0">
                     <p>Bahia Design</p>
-                    <p>Lunes - Viernes 10-16</p>
+                    <p>Lunes - Viernes 
+                      <br />9-18hs</p>
                     <p>Coordinar cita previa</p>
                 </div>
                 <div className="flex flex-col justify-center items-center pt-1 mr-4">
