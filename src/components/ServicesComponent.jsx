@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { NavbarComponent } from './Navbar';
-import Footer from './Footer';
 import grifo from '../assets/services/griferia.jpg';
 import pisos from '../assets/services/pisos.jpg';
 import sanitario from '../assets/services/sanitarios.jpg';
@@ -21,7 +19,6 @@ const ServicesComponent = () => {
     
     return (
         <div className=" overflow-hidden h-max">
-          <NavbarComponent />
           <div className="flex-1 bg-[#110A0C] border-b border-zinc-700 py-4 " >
             <div className="container mx-auto py-16">
               <div className="grid grid-cols-1 md:grid-cols-2">
@@ -44,7 +41,6 @@ const ServicesComponent = () => {
               </div>
             </div>
           </div>
-          <Footer/>
         </div>
     );
 };
