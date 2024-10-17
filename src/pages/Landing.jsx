@@ -12,6 +12,7 @@ import FloatingButton from '../components/ButtonWsp'
 import { AboutUs } from '../components/AboutUs'
 import { Services } from '../components/Services'
 import { NewNav } from '../components/NewNav'
+import { NewNav2 } from '../components/NewNav2'
 
 export const Landing = () => {
   return (
@@ -19,8 +20,9 @@ export const Landing = () => {
       
       <div className='min-h-screen flex flex-col '>
 
-        <NavbarComponent />
+        {/* <NavbarComponent /> */}
         {/* <NewNav/> */}
+        <NewNav2/>
 
         <LandingCarousel />
         {/* <div className='flex-grow flex items-center justify-center py-14'>
