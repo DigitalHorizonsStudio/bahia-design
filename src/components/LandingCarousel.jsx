@@ -26,7 +26,7 @@ export const LandingCarousel = () => {
       <Carousel style={{background: 'transparent'}} data-bs-theme="dark" fade={true}>
         {slides.map((slide, index) => (
           <Carousel.Item key={index}>
-            <div className="evts-carousel py-10">
+            <div className="evts-carousel">
               <img
                 className="evts-carousel"
                 src={slide.src}
