@@ -7,15 +7,16 @@
 }
 body
 {
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    
     min-height: 100vh;
     /* background: #000; */
 }
 nav
 {
-    position: relative;
+    position: fixed;
+    top: 2;
+    left: 81%;
+    transform: translateX(-50%);
     width: 464px;
     height: 50px;
     background: #222;
@@ -23,10 +24,11 @@ nav
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 nav a 
 {
-    position: relative;
+    
     display: inline-block;
     font-size: 1em;
     font-weight: 500;

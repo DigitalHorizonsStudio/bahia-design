@@ -3,9 +3,11 @@
     
 }
 .carousel-container {
-  margin-left: 170px; /* Adjust this value if the sidebar width changes */
-  padding: 20px; /* Optional: Add padding if needed */
-  margin-right: 10%;;
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina padding */
+  width: 100vw; /* Asegura que ocupe todo el ancho */
+  height: 80vh; /* Ocupa toda la altura de la ventana */
+
 }
   .img-carousel {
     width: 100%;
@@ -15,8 +17,8 @@
   }
   .evts-carousel {
     width: 100%;
-    height: auto;
-    max-height: 80vh;
+    height: 95vh;
+    max-height: 100vh;
     object-fit: cover;
   }
 
