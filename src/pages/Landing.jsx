@@ -13,6 +13,7 @@ import { AboutUs } from '../components/AboutUs'
 import { Services } from '../components/Services'
 import { NewNav } from '../components/NewNav'
 import { NewNav2 } from '../components/NewNav2'
+import { Footer2 } from '../components/Footer2'
 
 export const Landing = () => {
   return (
@@ -51,7 +52,7 @@ export const Landing = () => {
         {/* <ContactUs /> */}
         {/* <CarouselBrands /> */}
         <FloatingButton />
-        
+        <Footer2 />
         {/* <Footer />       */}
        
       </div>
