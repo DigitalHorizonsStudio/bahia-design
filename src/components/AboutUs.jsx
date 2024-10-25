@@ -13,7 +13,9 @@ export const AboutUs = () => {
           <div className="text-white">
             <h2 className="text-5xl mb-4 inline-block border-b-[1px] border-white font-montserrat ">Sobre nosotros</h2>
             <ul className="p-3">
-                Descripcion de nosotros y nuestra empresa...
+            BAHIA DESIGN se fundo a comienzos de 2020 con la vision de revolucionar el diseno de, Pisos y Revestimientos de Porcellanatos, Cerámicos, Griferías y Sanitarios con los más altos estándares de calidad, servicio y logística.
+Es nuestro compromiso ofrecer productos de alta calidad, combinando estetica y funcionalidad para crear espacios unicos y elegantes.
+
               </ul>
           </div>
         </div>
