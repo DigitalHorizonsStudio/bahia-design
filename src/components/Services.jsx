@@ -19,7 +19,7 @@ export const Services = () => {
       <h1 className="text-3xl sm:text-5xl xl:text-6xl md:text-black sm: mb-2 sm: pt-8 xl:mt-10 text-center font-semibold cl-title " style={{ fontFamily: 'Montserrat' }}></h1>
       
      
-      <div className="w-[83%] h-10 grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 lg:pt-6 sm:gap-0 lg:pb-6 sm:pb-0 lg:gap-10">
+      <div className="w-[83%]  grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 lg:pt-6 sm:gap-0 lg:pb-6 sm:pb-0 lg:gap-10">
 
         <ServiceLink image={grifo} title="Griferia" onClick={() => handleServiceClick("Griferia")} />
         <ServiceLink image={grifo} title="Pisos y porcelanatos" onClick={() => handleServiceClick("Pisos")} />

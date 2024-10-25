@@ -139,19 +139,24 @@ footer{
     display: inline-block;
     width: 35px;
     height: 35px;
-    cursor: pointer;
-    background-color: #33383b;
+    /* cursor: pointer; */
+    /* background-color: #33383b; */
     border-radius: 2px;
     font-size: 20px;
     color: #ffff;
     text-align: center;
     line-height: 35px;
-    margin-right: 3px;
+    margin-right: 30px;
     margin-bottom: 5px;
 }
 
-.footer-distributed .footer-icons a:hover{
+/* .footer-distributed .footer-icons a:hover{
     background-color: #3f71ea;
+} */
+
+.footer-icons img:hover {
+    transform: scale(2.2); /* Aumenta el tamaño al pasar el ratón */
+    transition: transform 0.3s ease-in-out;
 }
 
 .footer-links a:hover{
