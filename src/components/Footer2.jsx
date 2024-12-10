@@ -57,7 +57,7 @@ export const Footer2 = () => {
                                 <img src={Whatsapp} alt="WhatsApp" className="w-8 h-8 " />
                             </a>
                             <a href="https://www.instagram.com/bahia.design?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src={Instagram} alt="Instagram" className="w-8 h-8 " /></a>
-                            <a href="mailto:info@paradisomusicpro.com">
+                            <a href="mailto:bahiadesing@gmail.com">
                                 <img src={Correo} alt="Correo" className="w-8 h-8" />
                             </a>
 
