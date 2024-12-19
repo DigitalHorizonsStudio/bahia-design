@@ -49,8 +49,10 @@ export const Landing = () => {
         <div className='border' style={{ width: '80%', display:'flex', marginLeft:'10%', marginTop: '3%', }}></div>
         <AboutUs />
         
+        
         {/* <ContactUs /> */}
         {/* <CarouselBrands /> */}
+        
         <Footer2 />
         <FloatingButton />
         {/* <Footer />       */}

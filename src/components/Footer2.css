@@ -24,14 +24,21 @@ footer{
 }
 
 .footer-distributed{
-    background-color: #2d2a30;
+    /* background-color: #2d2a30; */
     /* background-color: #8d888869; */
+    background: #ffffff28; 
+    /* backdrop-filter: blur(0px);  */
+    /* -webkit-backdrop-filter: blur(3px);  */
+    color: #fff; /* Asegura buen contraste con el texto */
+    padding: 20px;
+    text-align: center;
     box-sizing: border-box;
     widows: 100%;
     text-align: left;
     font: bold 16px sans-serif;
     padding: 50px 50px 60px 50px;
     margin-top: 80px;
+    border-top: 1px solid #fff;
 }
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
     display: inline-block;
@@ -48,7 +55,8 @@ footer{
     margin: 0;
 }
 .footer-distributed h3 span{
-    color: #e0ac1c ;
+    /* color: #e0ac1c ; */
+    color:aquamarine
 }
 
 .footer-distributed .footer-links{
@@ -107,8 +115,14 @@ footer{
 }
 
 .footer-distributed .footer-center p a{
-    color: #e0ac1a;
+    font-size: 140%;
+    font-weight: normal;
     text-decoration: none;
+    /* color: rgba(127, 255, 212, 0.9); */
+    /* box-shadow: 0 0 5px rgba(127, 255, 212, 0.4); */
+    text-shadow: 0 0 3px rgb(66, 176, 134), 0 0 0px #92999f;
+    transition: box-shadow 0.3s ease;
+    
 }
 
 .footer-distributed .footer-right{

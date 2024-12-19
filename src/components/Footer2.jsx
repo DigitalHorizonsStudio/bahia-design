@@ -39,11 +39,11 @@ export const Footer2 = () => {
                       <br />9-18hs</p>
                       <br />
                       <br />
-                        <p>Coordinar cita previa</p>
+                        <p>Coordinar cita previa:</p>
                     </div>
-                    <div className="text-center">
+                    <div className="text-center pt-4">
                         <i class="fa fa-envelope"></i>
-                        <p><a href="#">bahiadesing@gmail.com</a></p>
+                        <p><a href="#">BahiaDesign@gmail.com</a></p>
                     </div>
                 </div>
 
